@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大话数据结构", "大话数据结构\大话数据结构.csproj", "{5D825CBA-D4DD-4F40-974C-FBB2FDCA1B9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二分查找", "二分查找\二分查找.csproj", "{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5D825CBA-D4DD-4F40-974C-FBB2FDCA1B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D825CBA-D4DD-4F40-974C-FBB2FDCA1B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D825CBA-D4DD-4F40-974C-FBB2FDCA1B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
