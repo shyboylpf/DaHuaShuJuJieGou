@@ -120,7 +120,9 @@ namespace 头插单链表
             {
                 throw new IndexOutOfRangeException("链表没这么长");
             }
+            Node temp = node.next;
             node.next = node.next.next;
+
         }
     }
 }
