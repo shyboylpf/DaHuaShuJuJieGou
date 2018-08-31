@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大话数据结构", "大�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二分查找", "二分查找\二分查找.csproj", "{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "头插单链表", "单链表\头插单链表.csproj", "{17505FAA-7A8F-4203-85BF-960AAEC77DE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F7F67B-2178-4BA6-BAF3-FEA1C2F16C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17505FAA-7A8F-4203-85BF-960AAEC77DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17505FAA-7A8F-4203-85BF-960AAEC77DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17505FAA-7A8F-4203-85BF-960AAEC77DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17505FAA-7A8F-4203-85BF-960AAEC77DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
