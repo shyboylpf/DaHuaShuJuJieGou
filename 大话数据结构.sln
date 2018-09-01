@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "尾插单链表", "尾插�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "头插双向链表", "头插双向链表\头插双向链表.csproj", "{AE56CF0A-9679-4843-802D-AC32CAA676C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AE56CF0A-9679-4843-802D-AC32CAA676C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE56CF0A-9679-4843-802D-AC32CAA676C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE56CF0A-9679-4843-802D-AC32CAA676C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
