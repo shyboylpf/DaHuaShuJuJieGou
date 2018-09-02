@@ -16,7 +16,7 @@ namespace 逆波兰表达式
             charDic['/'] = 2;
             charDic[')'] = 3;
             string chars = "+-*/()";
-            string s = "9+(3-1)*3+10/2";
+            string s = "9+(3-1)*3+8/2";
             foreach(char s1 in s)
             {
                 if (chars.IndexOf(s1) == -1)
@@ -25,7 +25,7 @@ namespace 逆波兰表达式
                 }
                 else
                 {
-                    if (s1 == '(')
+                    if (s1 == '(' || charStack.Count==0 || charStack.Peek() == '(')
                     {
                         charStack.Push(s1);
                     }
@@ -37,20 +37,23 @@ namespace 逆波兰表达式
                         }
                         charStack.Pop();
                     }
-                    else if (!charStack.TryPeek(out char temp) || charStack.Peek()=='(')
+                    else if (charDic[charStack.Peek()] >= charDic[s1])
                     {
+                        while(charStack.Count!=0 && charDic[charStack.Peek()] >= charDic[s1])
+                        {
+                            Console.Write(charStack.Pop());
+                        }
                         charStack.Push(s1);
-                    }
-                    else if (charDic[charStack.Peek()] > charDic[s1])
-                    {
-                        Console.Write(s1);
                     }
                     else
                     {
-                        Console.Write(charStack.Pop());
                         charStack.Push(s1);
                     }
                 }
+            }
+            while (charStack.Count != 0)
+            {
+                Console.Write(charStack.Pop());
             }
             Console.WriteLine("Hello World!");
         }
