@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "头插双向链表", "头�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "共享栈", "共享栈\共享栈.csproj", "{9E593144-9E5D-4B87-8975-BB5927E3761B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "共享栈", "共享栈\共享栈.csproj", "{9E593144-9E5D-4B87-8975-BB5927E3761B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "逆波兰表达式", "逆波兰表达式\逆波兰表达式.csproj", "{182A8D4B-0012-4A58-89BF-BE80C9F368FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "逆波兰表达式", "逆波兰表达式\逆波兰表达式.csproj", "{182A8D4B-0012-4A58-89BF-BE80C9F368FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "波兰表达式", "波兰表达式\波兰表达式.csproj", "{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{182A8D4B-0012-4A58-89BF-BE80C9F368FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182A8D4B-0012-4A58-89BF-BE80C9F368FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182A8D4B-0012-4A58-89BF-BE80C9F368FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
