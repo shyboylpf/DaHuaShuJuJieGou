@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "尾插单链表", "尾插�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "头插双向链表", "头插双向链表\头插双向链表.csproj", "{AE56CF0A-9679-4843-802D-AC32CAA676C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "斐波那契数列", "斐波那契数列\斐波那契数列.csproj", "{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "共享栈", "共享栈\共享栈.csproj", "{9E593144-9E5D-4B87-8975-BB5927E3761B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0D5A50-2EC9-4C49-AC7B-DCF386A8C666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E593144-9E5D-4B87-8975-BB5927E3761B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E593144-9E5D-4B87-8975-BB5927E3761B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E593144-9E5D-4B87-8975-BB5927E3761B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E593144-9E5D-4B87-8975-BB5927E3761B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
