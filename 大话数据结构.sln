@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "波兰表达式", "波兰�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "循环队列", "循环队列\循环队列.csproj", "{B994A36E-108F-484F-8DA0-11ADC9257EEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二叉树", "二叉树\二叉树.csproj", "{D8EA9BDD-6949-49A2-8957-16543CDE8989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{B994A36E-108F-484F-8DA0-11ADC9257EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B994A36E-108F-484F-8DA0-11ADC9257EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B994A36E-108F-484F-8DA0-11ADC9257EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
