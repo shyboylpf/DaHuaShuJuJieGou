@@ -37,6 +37,7 @@ namespace 二叉树
             root1.LevelOrder(root); // 前序
             //root1.postorder(root); // 后序
             //Console.WriteLine("Hello World!");
+            CreateBiTree(root);
         }
 
         public static BiTNode PreCreateBinTree(BiTNode p ,ref int val)
@@ -47,6 +48,21 @@ namespace 二叉树
             p.lchild = PreCreateBinTree(p.lchild,ref val);
             p.rchild = PreCreateBinTree(p.rchild,ref val);
             return p;
+        }
+        public static void CreateBiTree(BiTNode p)
+        {
+            int val = Console.Read();
+            if (val == 0)
+            {
+                p = null;
+            }
+            else
+            {
+                p = new BiTNode(val);
+                CreateBiTree(p.lchild);
+                CreateBiTree(p.rchild);
+            }
+
         }
     }
     /// <summary>
