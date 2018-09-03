@@ -5,11 +5,48 @@ namespace 二叉树
 {
     class Program
     {
+        static int a = 1;
         static void Main(string[] args)
         {
 
-            BiTNode root = new BiTNode();
-            Console.WriteLine("Hello World!");
+            BiTNode root = new BiTNode(1);
+            //root.lchild = new BiTNode(2);
+            //root.rchild = new BiTNode(3);
+            //root.lchild.lchild = new BiTNode(4);
+            //root.lchild.rchild = new BiTNode(5);
+            LinkBinayrTree root1 = new LinkBinayrTree();
+            //root1.Head = root;
+            //root1.LevelOrder(root);
+            Queue<BiTNode> sq = new Queue<BiTNode>();
+            int i = 2;
+            sq.Enqueue(root);
+            while (i < 20)
+            {
+                BiTNode tmp = sq.Dequeue();
+                tmp.lchild = new BiTNode(i++);
+                tmp.rchild = new BiTNode(i++);
+                sq.Enqueue(tmp.lchild);
+                sq.Enqueue(tmp.rchild);
+            }
+            //root1.LevelOrder(root); // 层序
+            PreCreateBinTree(root, ref a);
+
+            //root1.inorder(root); // 中序
+            root1.preorder(root); // 前序
+            Console.WriteLine();
+            root1.LevelOrder(root); // 前序
+            //root1.postorder(root); // 后序
+            //Console.WriteLine("Hello World!");
+        }
+
+        public static BiTNode PreCreateBinTree(BiTNode p ,ref int val)
+        {
+            if (val > 11) return null;
+            p.lchild = new BiTNode(++val);
+            p.rchild = new BiTNode(++val);
+            p.lchild = PreCreateBinTree(p.lchild,ref val);
+            p.rchild = PreCreateBinTree(p.rchild,ref val);
+            return p;
         }
     }
     /// <summary>
@@ -58,7 +95,7 @@ namespace 二叉树
 
     public class LinkBinayrTree
     {
-        private BiTNode Head { get; set; }
+        public BiTNode Head { get; set; }
         public LinkBinayrTree()
         {
             Head = null;
@@ -201,11 +238,11 @@ namespace 二叉树
         {
             if (IsEmpty())
             {
-                Console.WriteLine("Tree is empty");
+                //Console.WriteLine("Tree is empty");
             }
             if (p != null)
             {
-                Console.WriteLine(p.data + " ");
+                Console.Write(p.data + " ");
                 preorder(p.lchild);
                 preorder(p.rchild);
             }
@@ -232,7 +269,7 @@ namespace 二叉树
             while (sq.Count != 0)
             {
                 BiTNode tmp = sq.Dequeue();
-                Console.WriteLine(tmp.data);
+                Console.Write(tmp.data+" ");
                 if (tmp.lchild != null)
                     sq.Enqueue(tmp.lchild);
                 if (tmp.rchild != null)
