@@ -46,7 +46,7 @@ namespace 二叉树
             Console.WriteLine("\n后序递归创建二叉树");
             youbiao = 0;
             BiTNode root4 = new BiTNode();
-            InCreateBiTree(ref root4);
+            PostCreateBiTree(ref root4);
             linkBinayrTree.postorder(root4);
             Console.WriteLine();
             
