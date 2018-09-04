@@ -5,18 +5,16 @@ namespace 二叉树
 {
     class Program
     {
-        static int a = 1;
+        static int youbiao = 0;
+        static int[] preArray = { 1, 2, 0, 3, 0, 0, 4, 0, 0 };
+        static int[] inArray = { 0, 2, 0, 4, 0, 1, 0, 3, 0 };
+        static int[] postArray = { 0, 0, 0, 4, 2, 0, 0, 3, 1 };
         static void Main(string[] args)
         {
-
+            // 层序循环创建二叉树
+            Console.WriteLine("层序循环创建二叉树");
             BiTNode root = new BiTNode(1);
-            //root.lchild = new BiTNode(2);
-            //root.rchild = new BiTNode(3);
-            //root.lchild.lchild = new BiTNode(4);
-            //root.lchild.rchild = new BiTNode(5);
-            LinkBinayrTree root1 = new LinkBinayrTree();
-            //root1.Head = root;
-            //root1.LevelOrder(root);
+            LinkBinayrTree linkBinayrTree = new LinkBinayrTree();
             Queue<BiTNode> sq = new Queue<BiTNode>();
             int i = 2;
             sq.Enqueue(root);
@@ -28,30 +26,38 @@ namespace 二叉树
                 sq.Enqueue(tmp.lchild);
                 sq.Enqueue(tmp.rchild);
             }
-            //root1.LevelOrder(root); // 层序
-            PreCreateBinTree(root, ref a);
+            linkBinayrTree.LevelOrder(root); // 层序
 
-            //root1.inorder(root); // 中序
-            root1.preorder(root); // 前序
+            // 前序递归创建二叉树
+            Console.WriteLine("\n前序递归创建二叉树");
+            youbiao = 0;
+            BiTNode root2 = new BiTNode();
+            PreCreateBiTree(ref root2);
+            linkBinayrTree.preorder(root2);
+
+            // 中序递归创建二叉树
+            Console.WriteLine("\n中序递归创建二叉树");
+            youbiao = 0;
+            BiTNode root3 = new BiTNode();
+            InCreateBiTree(ref root3);
+            linkBinayrTree.inorder(root3);
+
+            // 后序递归创建二叉树
+            Console.WriteLine("\n后序递归创建二叉树");
+            youbiao = 0;
+            BiTNode root4 = new BiTNode();
+            InCreateBiTree(ref root4);
+            linkBinayrTree.postorder(root4);
             Console.WriteLine();
-            root1.LevelOrder(root); // 前序
-            //root1.postorder(root); // 后序
-            //Console.WriteLine("Hello World!");
-            CreateBiTree(root);
+            
         }
-
-        public static BiTNode PreCreateBinTree(BiTNode p ,ref int val)
+        /// <summary>
+        /// 递归初始化二叉树 , 输入为扩展二叉树的前序遍历 , 得以确定树形.
+        /// </summary>
+        /// <param name="p"></param>
+        public static void PreCreateBiTree(ref BiTNode p)
         {
-            if (val > 11) return null;
-            p.lchild = new BiTNode(++val);
-            p.rchild = new BiTNode(++val);
-            p.lchild = PreCreateBinTree(p.lchild,ref val);
-            p.rchild = PreCreateBinTree(p.rchild,ref val);
-            return p;
-        }
-        public static void CreateBiTree(BiTNode p)
-        {
-            int val = Console.Read();
+            int val = preArray[youbiao++];
             if (val == 0)
             {
                 p = null;
@@ -59,10 +65,45 @@ namespace 二叉树
             else
             {
                 p = new BiTNode(val);
-                CreateBiTree(p.lchild);
-                CreateBiTree(p.rchild);
+                PreCreateBiTree(ref p.lchild);
+                PreCreateBiTree(ref p.rchild);
             }
-
+        }
+        /// <summary>
+        /// 中序递归创建二叉树
+        /// </summary>
+        /// <param name="p"></param>
+        public static void InCreateBiTree(ref BiTNode p)
+        {
+            int val = inArray[youbiao++];
+            if (val == 0)
+            {
+                p = null;
+            }
+            else
+            {
+                InCreateBiTree(ref p.lchild);
+                p = new BiTNode(val);
+                InCreateBiTree(ref p.rchild);
+            }
+        }
+        /// <summary>
+        /// 后序递归创建二叉树
+        /// </summary>
+        /// <param name="p"></param>
+        public static void PostCreateBiTree(ref BiTNode p)
+        {
+            int val = postArray[youbiao++];
+            if (val == 0)
+            {
+                p = null;
+            }
+            else
+            {
+                PostCreateBiTree(ref p.lchild);
+                PostCreateBiTree(ref p.rchild);
+                p = new BiTNode(val);
+            }
         }
     }
     /// <summary>
