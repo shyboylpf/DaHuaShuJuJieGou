@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "共享栈", "共享栈\共�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "逆波兰表达式", "逆波兰表达式\逆波兰表达式.csproj", "{182A8D4B-0012-4A58-89BF-BE80C9F368FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "波兰表达式", "波兰表达式\波兰表达式.csproj", "{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "波兰表达式", "波兰表达式\波兰表达式.csproj", "{AD3C96D9-38EF-47F7-A0E4-3ABC80606676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "循环队列", "循环队列\循环队列.csproj", "{B994A36E-108F-484F-8DA0-11ADC9257EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "循环队列", "循环队列\循环队列.csproj", "{B994A36E-108F-484F-8DA0-11ADC9257EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二叉树", "二叉树\二叉树.csproj", "{D8EA9BDD-6949-49A2-8957-16543CDE8989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二叉树", "二叉树\二叉树.csproj", "{D8EA9BDD-6949-49A2-8957-16543CDE8989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线索二叉树", "线索二叉树\线索二叉树.csproj", "{47516089-E730-4A1E-A5B4-ACB4F9078B54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8EA9BDD-6949-49A2-8957-16543CDE8989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47516089-E730-4A1E-A5B4-ACB4F9078B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47516089-E730-4A1E-A5B4-ACB4F9078B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47516089-E730-4A1E-A5B4-ACB4F9078B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47516089-E730-4A1E-A5B4-ACB4F9078B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
