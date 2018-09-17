@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线索二叉树", "线索�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图邻接矩阵", "图邻接矩阵\图邻接矩阵.csproj", "{C9FE6401-1977-43CE-9A31-79B6B2489F84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图邻接表", "图邻接表\图邻接表.csproj", "{97195989-EF28-448E-B1A5-4CB69240CE81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C9FE6401-1977-43CE-9A31-79B6B2489F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9FE6401-1977-43CE-9A31-79B6B2489F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9FE6401-1977-43CE-9A31-79B6B2489F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97195989-EF28-448E-B1A5-4CB69240CE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97195989-EF28-448E-B1A5-4CB69240CE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97195989-EF28-448E-B1A5-4CB69240CE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97195989-EF28-448E-B1A5-4CB69240CE81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
