@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "大话数据结构", "大话数据结构\大话数据结构.csproj", "{5D825CBA-D4DD-4F40-974C-FBB2FDCA1B9A}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图邻接矩阵", "图邻接矩阵\图邻接矩阵.csproj", "{C9FE6401-1977-43CE-9A31-79B6B2489F84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "图邻接表", "图邻接表\图邻接表.csproj", "{97195989-EF28-448E-B1A5-4CB69240CE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "AVLTree\AVLTree.csproj", "{C0D01CCA-217C-4F44-A5EC-C240B9B1C969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{97195989-EF28-448E-B1A5-4CB69240CE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97195989-EF28-448E-B1A5-4CB69240CE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97195989-EF28-448E-B1A5-4CB69240CE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D01CCA-217C-4F44-A5EC-C240B9B1C969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D01CCA-217C-4F44-A5EC-C240B9B1C969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D01CCA-217C-4F44-A5EC-C240B9B1C969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D01CCA-217C-4F44-A5EC-C240B9B1C969}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
