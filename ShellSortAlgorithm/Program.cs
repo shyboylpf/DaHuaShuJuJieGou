@@ -3,6 +3,9 @@ using System.Collections;
 
 namespace Shell_Sort
 {
+    /// <summary>
+    /// REF: https://www.w3resource.com/csharp-exercises/searching-and-sorting-algorithm/searching-and-sorting-algorithm-exercise-1.php
+    /// </summary>
     public class SortShell
     {
         private static void Main(string[] args)
