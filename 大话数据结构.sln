@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "整数变量互换", "整�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortAlgorithm", "QuickSortAlgorithm\QuickSortAlgorithm.csproj", "{11BA65C7-EE26-434F-8B70-0931A358667F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSortAlgorithm", "ShellSortAlgorithm\ShellSortAlgorithm.csproj", "{2A26F798-8CD1-4C44-9495-D59615B7BFFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{11BA65C7-EE26-434F-8B70-0931A358667F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11BA65C7-EE26-434F-8B70-0931A358667F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11BA65C7-EE26-434F-8B70-0931A358667F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A26F798-8CD1-4C44-9495-D59615B7BFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A26F798-8CD1-4C44-9495-D59615B7BFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A26F798-8CD1-4C44-9495-D59615B7BFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A26F798-8CD1-4C44-9495-D59615B7BFFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
