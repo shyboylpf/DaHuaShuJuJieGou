@@ -39,11 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "快速排序", "快速排�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "整数变量互换", "整数变量互换\整数变量互换.csproj", "{3B086F70-7927-4FD1-9278-BEF9F07C79E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortAlgorithm", "QuickSortAlgorithm\QuickSortAlgorithm.csproj", "{11BA65C7-EE26-434F-8B70-0931A358667F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSortAlgorithm", "QuickSortAlgorithm\QuickSortAlgorithm.csproj", "{11BA65C7-EE26-434F-8B70-0931A358667F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSortAlgorithm", "ShellSortAlgorithm\ShellSortAlgorithm.csproj", "{2A26F798-8CD1-4C44-9495-D59615B7BFFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellSortAlgorithm", "ShellSortAlgorithm\ShellSortAlgorithm.csproj", "{2A26F798-8CD1-4C44-9495-D59615B7BFFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSortAlgorithm", "HeapSortAlgorithm\HeapSortAlgorithm.csproj", "{4244CDA6-A0EF-4432-BD8F-1705263DA147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapSortAlgorithm", "HeapSortAlgorithm\HeapSortAlgorithm.csproj", "{4244CDA6-A0EF-4432-BD8F-1705263DA147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Red-BlackTree", "Red-BlackTree\Red-BlackTree.csproj", "{88C8AA99-C1C8-4BC4-9ACA-6934E5B5C1C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{4244CDA6-A0EF-4432-BD8F-1705263DA147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4244CDA6-A0EF-4432-BD8F-1705263DA147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4244CDA6-A0EF-4432-BD8F-1705263DA147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C8AA99-C1C8-4BC4-9ACA-6934E5B5C1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C8AA99-C1C8-4BC4-9ACA-6934E5B5C1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C8AA99-C1C8-4BC4-9ACA-6934E5B5C1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C8AA99-C1C8-4BC4-9ACA-6934E5B5C1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
